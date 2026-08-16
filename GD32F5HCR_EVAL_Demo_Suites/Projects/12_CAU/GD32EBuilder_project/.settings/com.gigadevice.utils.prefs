@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+ldfile.flash.size.in.flash=2048
+ldfile.ram.size.in.ram=448
+toolchain.path.1287942917=.\\Tools\\GNU Tools ARM Embedded\\xpack-arm-none-eabi-gcc\\9.2.1-1.1\\bin

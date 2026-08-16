@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Secure_Project\GD32F5HCP_START_SECURE.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Non_Secure_Project\GD32F5HCP_START_NON_SECURE.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>GD32F5HC_TZ</name>
+            <member>
+                <project>GD32F5HCP_START_SECURE</project>
+                <configuration>GD32F5HC</configuration>
+            </member>
+            <member>
+                <project>GD32F5HCP_START_NON_SECURE</project>
+                <configuration>GD32F5HC</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>
